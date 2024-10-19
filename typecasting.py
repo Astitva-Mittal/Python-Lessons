@@ -14,7 +14,7 @@ d = 2
 x = 1.2
 y = 2
 # automatically converts y to float. this is done b/c float lies higher in the data type hierarchy within python itself.
-print(x+y)
+print(x+y)  # print(int(x+y)) will print 3 instead of 3.2
 z = x+y
 print(type(x))
 print(type(y))
