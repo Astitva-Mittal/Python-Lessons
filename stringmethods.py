@@ -31,3 +31,15 @@ print(e.isalpha())  # is it alphabetical
 print(e.isprintable())
 f = "hola\n"  # \n is an invisible nonprintable item
 print(f.isprintable())  # will return false
+"""issapce"""
+print(c.isspace())  # will only detect wide spaces
+g = "         "
+print(g.isspace())
+print(g.istitle())  # will detect if the first letter of each word is caps
+h = "Hey Whatsup!"
+print(h.istitle())
+print(g.startswith("Hey"))
+print(h.startswith("Hey"))
+print(h.swapcase())
+print(c.title())
+"""DONE"""
